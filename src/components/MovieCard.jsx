@@ -5,7 +5,7 @@ export function MovieCard({ movie }) {
   const imageUrl = "https://image.tmdb.org/t/p/w300" + movie.poster_path;
   return (
     <li className={style.movieCard}>
-      <Link to={"/movie/" + movie.Id}>
+      <Link to={"/movies/" + movie.id}>
       <img
         with={230}
         height={345}
