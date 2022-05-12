@@ -10,5 +10,5 @@ export function get(path) {
             "Content-Type": "application/json;charset=utf-8",
         },
     })
-        .then((result) => result.json());
+        .then(result => result.json());
 }
